@@ -75,6 +75,7 @@ where licensed = TRUE
 
 __Find all tracks that belong to the album type single.__
 
+```sql
 select *
 from spotify
 where 
