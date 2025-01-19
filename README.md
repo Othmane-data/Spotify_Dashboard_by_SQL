@@ -54,7 +54,7 @@ Select
 where stream > 1000000000
 ```
 
-__2. List all albums along with their respective artists.__
+__2. List all albums along with their respective ``artists``.__
 
 ```sql
 select 
@@ -73,7 +73,7 @@ from spotify
 where licensed = TRUE
 ```
 
-__4. Find all tracks that belong to the album type "single".__
+__4. Find all tracks that belong to the album type ``single``.__
 
 ```sql
 select *
@@ -120,7 +120,7 @@ order by energy desc
 limit 5
 ```
 
-__8. List all tracks along with their views and likes where "official_video = TRUE".__
+__8. List all tracks along with their views and likes where ``official_video = TRUE``.__
 
 ```sql
 select 
@@ -190,7 +190,7 @@ where
 order by 3 desc
 ```
 
-__13. Use a "WITH" clause to calculate the difference between the highest and lowest energy values for tracks in each album.__
+__13. Use a ``WITH`` clause to calculate the difference between the highest and lowest energy values for tracks in each album.__
 
 ```sql
 with energy_Table as
