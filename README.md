@@ -63,7 +63,7 @@ artist
 from spotify
 ```
 
-__3. Get the total number of comments for tracks where "licensed = TRUE".__
+__3. Get the total number of comments for tracks where ``licensed = TRUE``.__
 
 ```sql
 select 
