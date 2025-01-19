@@ -1,12 +1,13 @@
 # Spotify Dashboard Project and Query Data Analysis by SQL
 
 ![](Spotify.png)
-
 --
 
 
-## Overview
+## Introduction
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using SQL. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
+
+## Table creation
 
 ```sql
 -- create table
@@ -82,6 +83,7 @@ album_type = 'single'
 
 __Count the total number of tracks by each artist.__
 
+
 ```sql
 Select
  artist,
@@ -93,7 +95,7 @@ order by 2 desc
 ```
 
 
-## Medium Level
+### Medium Level
 
 __Calculate the average danceability of tracks in each album.__
 
@@ -160,7 +162,7 @@ and stream_on_youtube <> 0
 ```
 
 
-## Advanced Level
+### Advanced Level
 
 __Find the top 3 most-viewed tracks for each artist using window functions.__
 
