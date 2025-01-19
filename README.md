@@ -1,6 +1,6 @@
 # Spotify Dashboard Project and Query Data Analysis by SQL
 
-![]
+![](Spotify.png)
 
 --
 
